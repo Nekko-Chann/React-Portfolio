@@ -1,0 +1,35 @@
+{
+    "appHeader": {
+        "salutation": "Chào bạn!",
+        "introduce": "Tôi là",
+        "brand": "Edan Nguyễn",
+        "home": "Trang chủ",
+        "project": "Dự án",
+        "contact": "Liên hệ",
+        "about": "Về tác giả"
+    },
+    "heroSection": {
+        "exp": "Kinh nghiệm",
+        "cv": "Tải Resume"
+    },
+    "introSection": {
+        "about": "Giới thiệu",
+        "maxim": "'FullStack à? Code cứ code, quan trong gì chức danh?'",
+        "heading1": "Yêu đơn phương lập trình và tôi tin rằng mình đã học hỏi được ít nhiều điều gì đó. 🤷‍♂️",
+        "heading2": "Tôi có kiến thức về các ngôn ngữ huyền thoại như là",
+        "heading3": "Lĩnh vực quan tâm của tôi là",
+        "heading4": "xây dựng các công nghệ web mới và các sản phẩm liên quan",
+        "heading5": "Có một câu nói mà bản thân tôi lúc nào cũng tự nhủ:"
+    },
+    "experience": {
+        "title": "Kinh nghiệm làm việc"
+    },
+    "skill": {
+        "title": "Kỹ năng"
+    },
+    "project": {
+        "title": "Tác phẩm",
+        "brand": "của tôi",
+        "heading6": "Dưới đây là một vài dự án mà tôi đã làm gần đây."
+    }
+}

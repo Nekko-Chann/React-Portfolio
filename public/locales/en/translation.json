@@ -1,0 +1,35 @@
+{
+    "appHeader": {
+        "salutation": "Hey There",
+        "introduce": "I'm",
+        "brand": "Edan Nguyen",
+        "home": "Home",
+        "project": "Project",
+        "contact": "Contact",
+        "about": "About"
+    },
+    "heroSection": {
+        "exp": "My Skill",
+        "cv": "Get Resume"
+    },
+    "introSection": {
+        "about": "About me",
+        "maxim": "FullStack, right? Just code, what's the importance of the title?",
+        "heading1": "I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️",
+        "heading2": "I have knowledge of legendary languages such as",
+        "heading3": "My field of Interest's are building new",
+        "heading4": "Web Technologies and Products",
+        "heading5": "There is a saying that I always tell myself:"
+    },
+    "experience": {
+        "title": "Experiences"
+    },
+    "skill": {
+        "title": "Skills"
+    },
+    "project": {
+        "title": "My Recent",
+        "brand": "Works",
+        "heading6": "Here are a few projects I've worked on recently."
+    }
+}
