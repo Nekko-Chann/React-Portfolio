@@ -3,7 +3,9 @@
 // import springMvcImg from 'assets/project/spring-mvc.png';
 import reactNativeImg from 'assets/project/react-native.png';
 import reactUltimateImg from 'assets/project/react-ultimate.png';
+import reactTestFresherImg from 'assets/project/react-test-fresher.png'
 import springRestImg from 'assets/project/spring-rest.png';
+import bookStoreImg from 'assets/project/laravel.jpg'
 
 export const APP_DATA = {
     FACEBOOK_URL: "https://www.facebook.com/EdanPrince2",
@@ -65,34 +67,42 @@ export const PROJECTS = [
         id: 1,
         imgPath: reactUltimateImg,
         title: "React Ultimate",
-        description: `Đây là dự án khởi đầu, sử dụng thư viện của JavaScript. Mục tiêu của dự án này là hiểu rõ một số khái niệm như "props", "state", kết hợp với thư viện Design UI/UX là Antd, website có thể tương thích với nhiều màn hình.`,
+        description: `Dự án sử dụng React với JavaScript. Mục tiêu của dự án này là hiểu rõ một số khái niệm như "props", "state", kết hợp với thư viện Design UI/UX là Antd`,
         githubLink: "https://github.com/Edan-Kun/React-Ultimate",
         demoLink: ""
     },
     {
         id: 2,
+        imgPath: reactTestFresherImg,
+        title: "React Test Fresher",
+        description: `Dự án sử dụng React với TypeScript. Mục tiêu của dự án này là thực hành, vận dụng các kiến thức đã học ở dự án React Ultimate, kết hợp với thư viện Design UI/UX là Antd`,
+        githubLink: "",
+        demoLink: ""
+    },
+    {
+        id: 3,
         imgPath: reactNativeImg,
         title: "React Native Basic",
-        description: "Đây là dự án cho Mobile, sử dụng thư viện khác của JavaScript. Ý tưởng của dự án này lấy từ ứng dụng ShopeFood, kết hợp với công cụ Expo cho ra một ứng dụng hoạt động trên nền tảng Android/IOS.",
+        description: "Dự án sử dụng React Native. Ý tưởng của dự án này lấy từ ứng dụng ShopeFood, kết hợp với công cụ Expo cho ra một ứng dụng hoạt động trên nền tảng Android/IOS.",
         githubLink: "https://github.com/Edan-Kun/React-Native.git",
         demoLink: ""
     },
     {
-        id: 2,
+        id: 4,
         imgPath: springRestImg,
         title: "Java Spring RestfulAPI",
-        description: "Đây là dự án sử dụng thư viện ReactJS(TypeScript) cho Frontend, JavaSpring cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd, website có thể tương thích với nhiều màn hình.",
+        description: "Dự án sử dụng React với TypeScript cho Frontend, JavaSpring cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd.",
         githubLink: "https://github.com/Edan-Kun/React-JobHunter.git",
         demoLink: ""
     },
-    // {
-    //     id: 3,
-    //     imgPath: springMvcImg,
-    //     title: "Java Spring MVC",
-    //     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    //     githubLink: "",
-    //     demoLink: ""
-    // },
+    {
+        id: 5,
+        imgPath: bookStoreImg,
+        title: "PHP/Laravel",
+        description: "Dự án sử dụng Framework Laravel. Đây là dự án project kỳ 2, Mục tiêu của dự án này là tạo ra website dể quản lý và bán sách.",
+        githubLink: "https://github.com/Edan-Kun/Book-Store.git",
+        demoLink: ""
+    },
     // {
     //     id: 4,
     //     imgPath: nextjsImg,
