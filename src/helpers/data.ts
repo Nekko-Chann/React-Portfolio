@@ -25,8 +25,8 @@ export const EXPERIENCES = [
             en: "Learn a few more skills such as: NextJS, React Native, Java Spring..."
         },
         duration: {
-            vi: "Tháng 1/2024 - Hiện tại",
-            en: "Jan 2024 - Present"
+            vi: "Tháng 9/2023 - Hiện tại",
+            en: "Sep 2023 - Present"
         }
     },
     {
@@ -41,8 +41,8 @@ export const EXPERIENCES = [
             en: "Learn and use Libraries: ReactJS, MUI, Antd..."
         },
         duration: {
-            vi: "Tháng 6/2023 - Tháng 1/2024",
-            en: "Jun 2022 - Jan 2024"
+            vi: "Tháng 3/2023 - Tháng 9/2023",
+            en: "Mar 2023 - Sep 2023"
         }
     },
     {
@@ -56,8 +56,8 @@ export const EXPERIENCES = [
             en: "Code and build something in everyday."
         },
         duration: {
-            vi: "Tháng 11/2022 - Tháng 6/2023",
-            en: "Nov 2022 - Jun 2023"
+            vi: "Tháng 11/2022 - Tháng 3/2023",
+            en: "Nov 2022 - Mar 2023"
         }
     }
 ]
@@ -66,25 +66,25 @@ export const PROJECTS = [
     {
         id: 1,
         imgPath: reactUltimateImg,
-        title: "React Ultimate",
+        title: "Ultimate Book",
         description: `Dự án sử dụng React với JavaScript. Mục tiêu của dự án này là hiểu rõ một số khái niệm như "props", "state", kết hợp với thư viện Design UI/UX là Antd`,
-        githubLink: "https://github.com/Edan-Kun/React-Ultimate",
+        githubLink: "https://github.com/Kirito-Char/Ultimate-Book-Final",
         demoLink: ""
     },
     {
         id: 2,
         imgPath: reactTestFresherImg,
-        title: "React Test Fresher",
-        description: `Dự án sử dụng React với TypeScript. Mục tiêu của dự án này là thực hành, vận dụng các kiến thức đã học ở dự án React Ultimate, kết hợp với thư viện Design UI/UX là Antd`,
-        githubLink: "",
+        title: "Tiki Book",
+        description: `Dự án sử dụng React với TypeScript. Mục tiêu của dự án này là thực hành, vận dụng các kiến thức đã học ở dự án Ultimate Book, kết hợp với thư viện Design UI/UX là Antd`,
+        githubLink: "https://github.com/Kirito-Char/Tiki-Book-Final",
         demoLink: ""
     },
     {
         id: 3,
         imgPath: reactNativeImg,
-        title: "React Native Basic",
+        title: "Edan Food",
         description: "Dự án sử dụng React Native. Ý tưởng của dự án này lấy từ ứng dụng ShopeFood, kết hợp với công cụ Expo cho ra một ứng dụng hoạt động trên nền tảng Android/IOS.",
-        githubLink: "https://github.com/Edan-Kun/React-Native.git",
+        githubLink: "https://github.com/Kirito-Char/EdanFood-Final",
         demoLink: ""
     },
     {
@@ -124,11 +124,10 @@ export const PROJECTS = [
 export const SKILLS_DATA = [
     'HTML',
     'CSS',
-    'Javascript',
+    'JavaScript',
     'React',
     'Typescript',
-    'Next JS', 
-    'Docker',
+    'Next JS',
     'MongoDB',
     'MySQL',  
     'Git',  
@@ -136,7 +135,6 @@ export const SKILLS_DATA = [
     'AntDesign',
     'MaterialUI',
     'Java',
-    'C'
   ]
   
   // Choose your skills from below. Make sure it's in the same format and spelled correctly.
