@@ -1,11 +1,12 @@
-// import nestImg from 'assets/project/nestjs.png';
-// import nextjsImg from 'assets/project/nextjs.jpeg';
-// import springMvcImg from 'assets/project/spring-mvc.png';
+import nestImg from 'assets/project/nestjs.png';
 import reactNativeImg from 'assets/project/react-native.png';
 import reactUltimateImg from 'assets/project/react-ultimate.png';
 import reactTestFresherImg from 'assets/project/react-test-fresher.png'
 import springRestImg from 'assets/project/spring-rest.png';
-import bookStoreImg from 'assets/project/laravel.jpg'
+import nodejsImg from 'assets/project/nodejs.jpg';
+import nextjsImg from 'assets/project/nextjs.jpeg';
+// import bookStoreImg from 'assets/project/laravel.jpg';
+// import springMvcImg from 'assets/project/spring-mvc.png';
 
 export const APP_DATA = {
     FACEBOOK_URL: "https://www.facebook.com/EdanPrince2",
@@ -62,63 +63,75 @@ export const EXPERIENCES = [
     }
 ]
 
-export const PROJECTS = [
+export const PROJECTS_FRONTEND = [
     {
         id: 1,
         imgPath: reactUltimateImg,
         title: "Ultimate Book",
-        description: `Dự án sử dụng React với JavaScript. Mục tiêu của dự án này là hiểu rõ một số khái niệm như "props", "state", kết hợp với thư viện Design UI/UX là Antd`,
-        githubLink: "https://github.com/Kirito-Char/Ultimate-Book-Final",
-        demoLink: ""
+        description: `Dự án sử dụng React với JS. Mục tiêu của dự án này là hiểu rõ một số khái niệm như "props", "state", kết hợp với thư viện Design UI/UX là Antd`,
+        frontend: "https://github.com/Kirito-Chann/Ultimate-Book-Final",
+        backend: "https://github.com/Kirito-Ann/Ultimate-Book-Final"
     },
     {
         id: 2,
         imgPath: reactTestFresherImg,
         title: "Tiki Book",
-        description: `Dự án sử dụng React với TypeScript. Mục tiêu của dự án này là thực hành, vận dụng các kiến thức đã học ở dự án Ultimate Book, kết hợp với thư viện Design UI/UX là Antd`,
-        githubLink: "https://github.com/Kirito-Char/Tiki-Book-Final",
-        demoLink: ""
+        description: `Dự án sử dụng React với Type. Mục tiêu của dự án này là thực hành, vận dụng các kiến thức đã học ở dự án Ultimate Book, kết hợp với thư viện Design UI/UX là Antd`,
+        frontend: "https://github.com/Kirito-Chann/Tiki-Book-Final",
+        backend: "https://github.com/Kirito-Ann/Tiki-Book-Final"
     },
     {
         id: 3,
         imgPath: reactNativeImg,
         title: "Edan Food",
         description: "Dự án sử dụng React Native. Ý tưởng của dự án này lấy từ ứng dụng ShopeFood, kết hợp với công cụ Expo cho ra một ứng dụng hoạt động trên nền tảng Android/IOS.",
-        githubLink: "https://github.com/Kirito-Char/EdanFood-Final",
-        demoLink: ""
+        frontend: "https://github.com/Kirito-Chann/EdanFood-Final",
+        backend: "https://github.com/Kirito-Ann/EdanFood-Final"
     },
     {
         id: 4,
-        imgPath: springRestImg,
-        title: "Java Spring RestfulAPI",
-        description: "Dự án sử dụng React với TypeScript cho Frontend, JavaSpring cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd.",
-        githubLink: "https://github.com/Edan-Kun/React-JobHunter.git",
-        demoLink: ""
+        imgPath: nextjsImg,
+        title: "React ProMax with Next.js",
+        description: "Dự án sử dụng framework NextJS. Mục tiêu của dự án này là tạo ra website đăng (nghe nhạc) tương tự như website SoundCloud, kết hợp với thư viện design MUI. (Chưa hoàn thành FE)",
+        frontend: "",
+        backend: ""
+    },
+]
+
+export const PROJECTS_BACKEND = [
+    {
+        id: 1,
+        imgPath: nodejsImg,
+        title: "Backend NodeJS",
+        description: "Dự án sử dụng NodeJS(ExpressJS). Đây là dự án Backend từ số 0. Mục tiêu của dự án giúp xây dựng Backend API, cách thức hoạt động của các loại Database. ",
+        frontend: "",
+        backend: "https://github.com/Kirito-Ann/NodeJS-Express"
     },
     {
-        id: 5,
-        imgPath: bookStoreImg,
-        title: "PHP/Laravel",
-        description: "Dự án sử dụng Framework Laravel. Đây là dự án project kỳ 2, Mục tiêu của dự án này là tạo ra website dể quản lý và bán sách.",
-        githubLink: "https://github.com/Edan-Kun/Book-Store.git",
-        demoLink: ""
+        id: 2,
+        imgPath: springRestImg,
+        title: "JobHunter",
+        description: "Dự án sử dụng React(Type) cho Frontend, framework SpringBoot cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd.",
+        frontend: "https://github.com/Kirito-Chann/Job-Hunter-Final",
+        backend: "https://github.com/Kirito-Ann/Job-Hunter-SpringBoot-Final"
+    },
+    {
+        id: 3,
+        imgPath: nestImg,
+        title: "Nest.js Basic",
+        description: "Dự án sử dụng React(Type) cho Frontend, framework NestJS cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd. (Chưa hoàn thiện BE)",
+        frontend: "https://github.com/Kirito-Chann/Job-Hunter-Final",
+        backend: "https://github.com/Kirito-Ann/Job-Hunter-NestJS-Final"
     },
     // {
     //     id: 4,
-    //     imgPath: nextjsImg,
-    //     title: "React ProMax with Next.js",
-    //     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    //     githubLink: "",
-    //     demoLink: ""
+    //     imgPath: bookStoreImg,
+    //     title: "PHP/Laravel",
+    //     description: "Dự án sử dụng Framework Laravel. Đây là dự án project kỳ 2, Mục tiêu của dự án này là tạo ra website dể quản lý và bán sách.",
+    //     frontend: "https://github.com/Edan-Kun/Book-Store.git",
+    //     backend: ""
     // },
-    // {
-    //     id: 5,
-    //     imgPath: nestImg,
-    //     title: "Nest.js Basic",
-    //     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    //     githubLink: "",
-    //     demoLink: ""
-    // },
+
 ]
 
 export const SKILLS_DATA = [

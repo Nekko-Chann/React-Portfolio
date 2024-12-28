@@ -21,7 +21,7 @@ const HeroLeft = (props: IProps) => {
     }
 
     const handleDownload = () => {
-        openInNewTab("https://drive.google.com/file/d/1CfS_T0ylph6AGgzvDvnJjt-RqsVLzFRp/view?usp=sharing");
+        openInNewTab("https://drive.google.com/file/d/1twL42byXpVthvcm_mnA2XkudMX_2Vla9/view?usp=sharing");
     }
 
     return (

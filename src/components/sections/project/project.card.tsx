@@ -1,14 +1,13 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-// import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 interface IProps {
     imgPath: string;
     title: string;
     description: string;
-    githubLink: string
-    demoLink: string;
+    frontend: string;
+    backend: string;
 }
 function ProjectCard(props: IProps) {
     return (
@@ -23,21 +22,14 @@ function ProjectCard(props: IProps) {
                         {props.description}
                     </Card.Text>
                     <div>
-                        <Button variant="primary" href={props.githubLink} target="_blank">
+                        <Button variant="primary" href={props.frontend} target="_blank">
                             <BsGithub /> &nbsp;
-                            GitHub
+                            Frontend
                         </Button>
-
-                        {/*<Button*/}
-                        {/*    variant="primary"*/}
-                        {/*    href={props.demoLink}*/}
-                        {/*    target="_blank"*/}
-                        {/*    style={{ marginLeft: "10px" }}*/}
-                        {/*>*/}
-                        {/*    <CgWebsite /> &nbsp;*/}
-                        {/*    {"Demo"}*/}
-                        {/*</Button>*/}
-
+                        <Button variant="primary" href={props.backend} target="_blank" style={{marginLeft: "10px"}}>
+                            <BsGithub /> &nbsp;
+                            Backend
+                        </Button>
                     </div>
                 </div>
             </Card.Body>
