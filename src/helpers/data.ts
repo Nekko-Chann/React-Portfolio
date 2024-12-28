@@ -91,7 +91,7 @@ export const PROJECTS_FRONTEND = [
     {
         id: 4,
         imgPath: nextjsImg,
-        title: "React ProMax with Next.js",
+        title: "Edan Music",
         description: "Dự án sử dụng framework NextJS. Mục tiêu của dự án này là tạo ra website đăng (nghe nhạc) tương tự như website SoundCloud, kết hợp với thư viện design MUI. (Chưa hoàn thành FE)",
         frontend: "",
         backend: ""
