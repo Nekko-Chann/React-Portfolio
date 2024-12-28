@@ -110,7 +110,7 @@ export const PROJECTS_BACKEND = [
     {
         id: 2,
         imgPath: springRestImg,
-        title: "JobHunter",
+        title: "JobHunter(Java)",
         description: "Dự án sử dụng React(Type) cho Frontend, framework SpringBoot cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd.",
         frontend: "https://github.com/Kirito-Chann/Job-Hunter-Final",
         backend: "https://github.com/Kirito-Ann/Job-Hunter-SpringBoot-Final"
@@ -118,7 +118,7 @@ export const PROJECTS_BACKEND = [
     {
         id: 3,
         imgPath: nestImg,
-        title: "Nest.js Basic",
+        title: "JobHunter(NestJS)",
         description: "Dự án sử dụng React(Type) cho Frontend, framework NestJS cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd. (Chưa hoàn thiện BE)",
         frontend: "https://github.com/Kirito-Chann/Job-Hunter-Final",
         backend: "https://github.com/Kirito-Ann/Job-Hunter-NestJS-Final"
