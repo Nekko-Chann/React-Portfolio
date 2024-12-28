@@ -86,7 +86,7 @@ export const PROJECTS_FRONTEND = [
         title: "Edan Food",
         description: "Dự án sử dụng React Native. Ý tưởng của dự án này lấy từ ứng dụng ShopeFood, kết hợp với công cụ Expo cho ra một ứng dụng hoạt động trên nền tảng Android/IOS.",
         frontend: "https://github.com/Kirito-Chann/EdanFood-Final",
-        backend: "https://github.com/Kirito-Ann/EdanFood-Final"
+        backend: "https://github.com/Kirito-Ann/Edan-Food-Final"
     },
     {
         id: 4,
