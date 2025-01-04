@@ -6,8 +6,8 @@ interface IProps {
     imgPath: string;
     title: string;
     description: string;
-    frontend: string;
-    backend: string;
+    github: string;
+    demo: string;
 }
 function ProjectCard(props: IProps) {
     return (
@@ -22,14 +22,14 @@ function ProjectCard(props: IProps) {
                         {props.description}
                     </Card.Text>
                     <div>
-                        <Button variant="primary" href={props.frontend} target="_blank">
+                        <Button variant="primary" href={props.github} target="_blank">
                             <BsGithub /> &nbsp;
-                            Frontend
+                            GitHub
                         </Button>
-                        <Button variant="primary" href={props.backend} target="_blank" style={{marginLeft: "10px"}}>
+                        {/* <Button variant="primary" href={props.backend} target="_blank" style={{marginLeft: "10px"}}>
                             <BsGithub /> &nbsp;
                             Backend
-                        </Button>
+                        </Button> */}
                     </div>
                 </div>
             </Card.Body>

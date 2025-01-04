@@ -24,8 +24,8 @@ const Project = () => {
                                 imgPath={item.imgPath}
                                 title={item.title}
                                 description={item.description}
-                                frontend={item.frontend}
-                                backend={item.backend}
+                                github={item.github}
+                                demo={item.demo}
                             />
                         </Col>
                     )
@@ -43,8 +43,8 @@ const Project = () => {
                                 imgPath={item.imgPath}
                                 title={item.title}
                                 description={item.description}
-                                frontend={item.frontend}
-                                backend={item.backend}
+                                github={item.github}
+                                demo={item.demo}
                             />
                         </Col>
                     )

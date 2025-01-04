@@ -67,35 +67,35 @@ export const PROJECTS_FRONTEND = [
     {
         id: 1,
         imgPath: reactUltimateImg,
-        title: "Ultimate Book",
+        title: "Book Store",
         description: `Dự án sử dụng React với JS. Mục tiêu của dự án này là hiểu rõ một số khái niệm như "props", "state", kết hợp với thư viện Design UI/UX là Antd`,
-        frontend: "https://github.com/Kirito-Chann/Ultimate-Book-Final",
-        backend: "https://github.com/Kirito-Ann/Ultimate-Book-Final"
+        github: "https://github.com/Kirito-Yami/Frontend-Book-Store",
+        demo: ""
     },
-    {
-        id: 2,
-        imgPath: reactTestFresherImg,
-        title: "Tiki Book",
-        description: `Dự án sử dụng React với Type. Mục tiêu của dự án này là thực hành, vận dụng các kiến thức đã học ở dự án Ultimate Book, kết hợp với thư viện Design UI/UX là Antd`,
-        frontend: "https://github.com/Kirito-Chann/Tiki-Book-Final",
-        backend: "https://github.com/Kirito-Ann/Tiki-Book-Final"
-    },
-    {
-        id: 3,
-        imgPath: reactNativeImg,
-        title: "Edan Food",
-        description: "Dự án sử dụng React Native. Ý tưởng của dự án này lấy từ ứng dụng ShopeFood, kết hợp với công cụ Expo cho ra một ứng dụng hoạt động trên nền tảng Android/IOS.",
-        frontend: "https://github.com/Kirito-Chann/EdanFood-Final",
-        backend: "https://github.com/Kirito-Ann/Edan-Food-Final"
-    },
-    {
-        id: 4,
-        imgPath: nextjsImg,
-        title: "Edan Music",
-        description: "Dự án sử dụng framework NextJS. Mục tiêu của dự án này là tạo ra website đăng (nghe nhạc) tương tự như website SoundCloud, kết hợp với thư viện design MUI. (Chưa hoàn thành FE)",
-        frontend: "",
-        backend: ""
-    },
+    // {
+    //     id: 2,
+    //     imgPath: reactTestFresherImg,
+    //     title: "Tiki Book",
+    //     description: `Dự án sử dụng React với Type. Mục tiêu của dự án này là thực hành, vận dụng các kiến thức đã học ở dự án Ultimate Book, kết hợp với thư viện Design UI/UX là Antd`,
+    //     github: "https://github.com/Kirito-Chann/Tiki-Book-Final",
+    //     demo: "https://github.com/Kirito-Ann/Tiki-Book-Final"
+    // },
+    // {
+    //     id: 3,
+    //     imgPath: reactNativeImg,
+    //     title: "Edan Food",
+    //     description: "Dự án sử dụng React Native. Ý tưởng của dự án này lấy từ ứng dụng ShopeFood, kết hợp với công cụ Expo cho ra một ứng dụng hoạt động trên nền tảng Android/IOS.",
+    //     github: "https://github.com/Kirito-Chann/EdanFood-Final",
+    //     demo: "https://github.com/Kirito-Ann/Edan-Food-Final"
+    // },
+    // {
+    //     id: 4,
+    //     imgPath: nextjsImg,
+    //     title: "Edan Music",
+    //     description: "Dự án sử dụng framework NextJS. Mục tiêu của dự án này là tạo ra website đăng (nghe nhạc) tương tự như website SoundCloud, kết hợp với thư viện design MUI. (Chưa hoàn thành FE)",
+    //     github: "",
+    //     demo: ""
+    // },
 ]
 
 export const PROJECTS_BACKEND = [
@@ -104,25 +104,25 @@ export const PROJECTS_BACKEND = [
         imgPath: nodejsImg,
         title: "Backend NodeJS",
         description: "Dự án sử dụng NodeJS(ExpressJS). Đây là dự án Backend từ số 0. Mục tiêu của dự án giúp xây dựng Backend API, cách thức hoạt động của các loại Database. ",
-        frontend: "",
-        backend: "https://github.com/Kirito-Ann/NodeJS-Express"
+        github: "https://github.com/Kirito-Seika/Backend-NodeJS-Express",
+        demo: ""
     },
-    {
-        id: 2,
-        imgPath: springRestImg,
-        title: "JobHunter(Java)",
-        description: "Dự án sử dụng React(Type) cho Frontend, framework SpringBoot cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd.",
-        frontend: "https://github.com/Kirito-Chann/Job-Hunter-Final",
-        backend: "https://github.com/Kirito-Ann/Job-Hunter-SpringBoot-Final"
-    },
-    {
-        id: 3,
-        imgPath: nestImg,
-        title: "JobHunter(NestJS)",
-        description: "Dự án sử dụng React(Type) cho Frontend, framework NestJS cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd. (Chưa hoàn thiện BE)",
-        frontend: "https://github.com/Kirito-Chann/Job-Hunter-Final",
-        backend: "https://github.com/Kirito-Ann/Job-Hunter-NestJS-Final"
-    },
+    // {
+    //     id: 2,
+    //     imgPath: springRestImg,
+    //     title: "JobHunter(Java)",
+    //     description: "Dự án sử dụng React(Type) cho Frontend, framework SpringBoot cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd.",
+    //     github: "https://github.com/Kirito-Chann/Job-Hunter-Final",
+    //     demo: "https://github.com/Kirito-Ann/Job-Hunter-SpringBoot-Final"
+    // },
+    // {
+    //     id: 3,
+    //     imgPath: nestImg,
+    //     title: "JobHunter(NestJS)",
+    //     description: "Dự án sử dụng React(Type) cho Frontend, framework NestJS cho Backend. Ý tưởng của dự án này lấy từ website: ITViec, kết hợp với thư viện Design UI/UX là Antd. (Chưa hoàn thiện BE)",
+    //     github: "https://github.com/Kirito-Chann/Job-Hunter-Final",
+    //     demo: "https://github.com/Kirito-Ann/Job-Hunter-NestJS-Final"
+    // },
     // {
     //     id: 4,
     //     imgPath: bookStoreImg,
